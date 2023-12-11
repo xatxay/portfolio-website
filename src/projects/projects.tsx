@@ -18,7 +18,7 @@ const projectData = [
   },
   {
     title: "FriendTech x Discord",
-    description: `A chatroom aggregator for FriendTech and Discord. The app allow users to chat with friends on FriendTech through their own Discord server. It can also track users buy/sell keys activies`,
+    description: `A chatroom aggregator for FriendTech and Discord. Allows users to use FriendTech chatroom on their own Discord server. It can also track users buy/sell keys activies`,
     url: process.env.REACT_APP_FRIENDTECH,
     image: friendTechLogo,
   },
@@ -37,7 +37,7 @@ const Projects = () => {
         <ContainerCard key={index}>
           <ContainerImgCard src={project.image} />
           <ContainerTextCard projects>
-            <h2>{project.title}</h2>
+            <h3>{project.title}</h3>
             <span>{project.description}</span>
             <ExternalLink
               href={project.url}

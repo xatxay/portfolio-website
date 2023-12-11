@@ -20,7 +20,7 @@ const ExternalLink = styled.a`
   cursor: pointer;
   color: ${externalLinkColor};
   &:hover {
-    filter: brightness(125%);
+    filter: brightness(115%);
   }
 `;
 

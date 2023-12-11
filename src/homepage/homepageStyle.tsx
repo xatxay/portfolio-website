@@ -25,8 +25,27 @@ const HeaderContainer = styled.div`
 
 const HeaderText = styled.h3`
   color: ${headerText};
-  text-decoration: underline;
   cursor: pointer;
+  position: relative;
+  display: inline-block;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: transform 0.5s cubic-bezier(0.93, -0.38, 0.78, -0.02);
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
+  }
+
   &:hover {
     color: black;
   }

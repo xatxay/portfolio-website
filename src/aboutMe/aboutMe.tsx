@@ -8,6 +8,7 @@ import {
   LeftContainer,
   RightContainer,
   IconsLink,
+  cardVariants,
 } from "./aboutMeStyle";
 import ichigo from "./ichigo-about-me.jpg";
 import {
@@ -19,6 +20,7 @@ import {
   SiGithub,
   SiLinkedin,
 } from "react-icons/si";
+import { motion } from "framer-motion";
 
 type IconsProps = {
   right?: boolean;
@@ -42,20 +44,28 @@ const AboutMe = () => {
   return (
     <AboutMeContainer id="about">
       <LeftContainer>
-        <ContainerCard>
-          <ContainerImgCard src={ichigo} />
-          <ContainerTextCard>
-            <h2>Xatxay Sengmeuangkhoun</h2>
-            <span>Age: {currentYear - 2000}</span>
-            <span>Junior Dev, but Senior Chef</span>
-            <Icons>
-              <SiTypescript />
-              <SiNodedotjs />
-              <SiReact />
-              <SiJavascript />
-            </Icons>
-          </ContainerTextCard>
-        </ContainerCard>
+        <motion.div
+          initial="offscreen"
+          whileInView="onscreen"
+          viewport={{ once: true, amount: 0.8 }}
+        >
+          <motion.div variants={cardVariants}>
+            <ContainerCard>
+              <ContainerImgCard src={ichigo} />
+              <ContainerTextCard>
+                <h2>Xatxay Sengmeuangkhoun</h2>
+                <span>Age: {currentYear - 2000}</span>
+                <span>Junior Dev, but Senior Chef</span>
+                <Icons>
+                  <SiTypescript />
+                  <SiNodedotjs />
+                  <SiReact />
+                  <SiJavascript />
+                </Icons>
+              </ContainerTextCard>
+            </ContainerCard>
+          </motion.div>
+        </motion.div>
       </LeftContainer>
       <RightContainer>
         <AboutMeDescription>

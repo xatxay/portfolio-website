@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import aboutMeBackground from "./second-slide-background.png";
+import { Variants } from "framer-motion";
 
 const AboutMeContainer = styled.div`
   height: 100vh;
@@ -38,6 +39,9 @@ const ContainerCard = styled.div`
   border-radius: 8px;
   border: 2px solid black;
   position: relative;
+  box-shadow: -190px 97px 85px rgba(0, 0, 0, 0.01),
+    -107px 55px 72px rgba(0, 0, 0, 0.03), -47px 24px 53px rgba(0, 0, 0, 0.04),
+    -12px 6px 29px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.05);
 `;
 
 const ContainerImgCard = styled.img`
@@ -55,6 +59,7 @@ const ContainerTextCard = styled.div<{ projects?: boolean }>`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   margin-bottom: 20px;
   span {
     margin-bottom: 10px;
@@ -98,6 +103,21 @@ const IconsLink = styled.a`
   }
 `;
 
+const cardVariants: Variants = {
+  offscreen: {
+    y: 300,
+  },
+  onscreen: {
+    y: 15,
+    rotate: -10,
+    transition: {
+      type: "spring",
+      bounce: 0.4,
+      duration: 0.8,
+    },
+  },
+};
+
 export {
   AboutMeContainer,
   LeftContainer,
@@ -108,4 +128,5 @@ export {
   Icons,
   AboutMeDescription,
   IconsLink,
+  cardVariants,
 };
