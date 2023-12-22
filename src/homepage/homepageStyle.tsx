@@ -17,7 +17,7 @@ const HeaderContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 80px;
+  height: 72px;
   width: 100%;
   top: 0;
   z-index: 1000;
@@ -40,6 +40,7 @@ const HeaderText = styled.h3`
     transform: scaleX(0);
     transform-origin: bottom left;
     transition: transform 0.5s cubic-bezier(0.93, -0.38, 0.78, -0.02);
+    z-index: 1;
   }
 
   &:hover::after {

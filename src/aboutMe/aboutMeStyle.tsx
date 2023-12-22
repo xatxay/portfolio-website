@@ -37,7 +37,7 @@ const ContainerCard = styled.div`
   width: 300px;
   height: 450px;
   border-radius: 8px;
-  border: 2px solid black;
+  border: 1px solid black;
   position: relative;
   box-shadow: -190px 97px 85px rgba(0, 0, 0, 0.01),
     -107px 55px 72px rgba(0, 0, 0, 0.03), -47px 24px 53px rgba(0, 0, 0, 0.04),
@@ -47,7 +47,7 @@ const ContainerCard = styled.div`
 const ContainerImgCard = styled.img`
   display: block;
   height: 225px;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
   width: 100%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;

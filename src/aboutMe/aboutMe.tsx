@@ -48,23 +48,22 @@ const AboutMe = () => {
           initial="offscreen"
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.8 }}
+          variants={cardVariants}
         >
-          <motion.div variants={cardVariants}>
-            <ContainerCard>
-              <ContainerImgCard src={ichigo} />
-              <ContainerTextCard>
-                <h2>Xatxay Sengmeuangkhoun</h2>
-                <span>Age: {currentYear - 2000}</span>
-                <span>Junior Dev, but Senior Chef</span>
-                <Icons>
-                  <SiTypescript />
-                  <SiNodedotjs />
-                  <SiReact />
-                  <SiJavascript />
-                </Icons>
-              </ContainerTextCard>
-            </ContainerCard>
-          </motion.div>
+          <ContainerCard>
+            <ContainerImgCard src={ichigo} />
+            <ContainerTextCard>
+              <h2>Xatxay Sengmeuangkhoun</h2>
+              <span>Age: {currentYear - 2000}</span>
+              <span>Junior Dev, but Senior Chef</span>
+              <Icons>
+                <SiTypescript />
+                <SiNodedotjs />
+                <SiReact />
+                <SiJavascript />
+              </Icons>
+            </ContainerTextCard>
+          </ContainerCard>
         </motion.div>
       </LeftContainer>
       <RightContainer>

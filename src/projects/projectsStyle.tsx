@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 import projectBackground from "./project-background.png";
 import { externalLinkColor } from "../colorCode/color";
+import { Variant } from "framer-motion";
 
 const ProjectContainer = styled.div`
   height: 100vh;
@@ -24,4 +25,9 @@ const ExternalLink = styled.a`
   }
 `;
 
-export { ProjectContainer, ExternalLink };
+const projectsVariant = {
+  hidden: { opacity: 0, scale: 0.8 },
+  visible: { opacity: 1, scale: 1 },
+};
+
+export { ProjectContainer, ExternalLink, projectsVariant };
