@@ -71,11 +71,11 @@ const AboutMe = () => {
           <h1>About Me</h1>
           <span>
             I started coding in late July 2023. I've learned most of my coding
-            skills through doing personal projects. Three projects i've done so
-            far are my personal AI news trading terminal, stink biddor, and
-            FriendTech Discord chatroom aggregator. I find coding to be really
-            fun and interesting. I enjoy solving problems and turning ideas into
-            reality.
+            skills through doing personal projects. Four projects i've done so
+            far are my personal AI news trading terminal, Token Sentiment, stink
+            biddor, and FriendTech Discord chatroom aggregator. I find coding to
+            be really fun and interesting. I enjoy solving problems and turning
+            ideas into reality.
           </span>
           <h1>Contact Details</h1>
           <ContactIcons right />
