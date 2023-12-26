@@ -1,7 +1,6 @@
 import styled from "@emotion/styled";
 import projectBackground from "./project-background.png";
 import { externalLinkColor } from "../colorCode/color";
-import { Variant } from "framer-motion";
 
 const ProjectContainer = styled.div`
   height: 100vh;
