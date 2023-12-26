@@ -27,7 +27,7 @@ const Experience = () => {
           consumers and latest fashion trends.
         </span>
         <h2>Walmart</h2>
-        <h3>From 2021 - Now</h3>
+        <h3>From 2021 - Dec 2023</h3>
         <span>
           I provide world class customer service to improve the overall
           experience for the everyday consumer in addition to maintaining their
