@@ -26,12 +26,13 @@ const Experience = () => {
           releases and also provided an intersection of commerce between
           consumers and latest fashion trends.
         </span>
-        <h2>Walmart</h2>
-        <h3>From 2021 - Dec 2023</h3>
+        <h2>News Dashboard</h2>
+        <h3>From Dec 2023 - Now</h3>
         <span>
-          I provide world class customer service to improve the overall
-          experience for the everyday consumer in addition to maintaining their
-          relationship, ensuring consistent repeat visits.
+          A place where you can find all the important cryptocurrency news
+          headline events that gives you all the sources, news event, timestamp
+          with a live candlestick chart to help traders doing research and
+          sharpen their edge.
         </span>
       </TextContainer>
     </ExperienceContainer>

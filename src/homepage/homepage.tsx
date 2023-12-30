@@ -37,7 +37,7 @@ const HomePage = () => {
           </Link>
         </HeaderContainer>
         <HomePageDescription>
-          Hello, my name is Xatxay Sengmeuangkhoun or you can call me James. I'm
+          Hello, my name is Xatxay Sengmeuangkhoun or you can call me Jame. I'm
           a fullstack web dev who is looking for an opportunity to contribute
           and be apart of a team.
         </HomePageDescription>
