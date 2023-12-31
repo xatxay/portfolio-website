@@ -29,10 +29,9 @@ const Experience = () => {
         <h2>News Dashboard</h2>
         <h3>From Dec 2023 - Now</h3>
         <span>
-          A place where you can find all the important cryptocurrency news
-          headline events that gives you all the sources, news event, timestamp
-          with a live candlestick chart to help traders doing research and
-          sharpen their edge.
+          Building a fullstack web app for cryptocurrency news headline events
+          with live price data chart from scratch. It's a tool to help traders
+          do research and stay inform on cryptocurrency market.
         </span>
       </TextContainer>
     </ExperienceContainer>
