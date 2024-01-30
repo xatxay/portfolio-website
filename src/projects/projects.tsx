@@ -12,7 +12,7 @@ import irregularLogo from "./irregular-trading-terminal.png";
 import friendTechLogo from "./Friend.tech-logo.jpeg";
 import { FaExternalLinkSquareAlt } from "react-icons/fa";
 import stinkbid from "./stinkbid.jpg";
-import tokenSentimentLogo from "./tokensentiment.png";
+import cashHogHavenLogo from "./cashhog_haven_logo.png";
 import { motion } from "framer-motion";
 
 const projectData = [
@@ -22,11 +22,17 @@ const projectData = [
     url: process.env.REACT_APP_TRADING_TERMINAL,
     image: irregularLogo,
   },
+  // {
+  //   title: "Token Sentiment",
+  //   description: `A cryptocurrency market sentiment tracker with aggregated data from Twitter feeed, Twitter polls, Youtube, Reddit, and Tiktok`,
+  //   url: process.env.REACT_APP_TOKEN_SENTIMENT,
+  //   image: tokenSentimentLogo,
+  // },
   {
-    title: "Token Sentiment",
-    description: `A cryptocurrency market sentiment tracker with aggregated data from Twitter feeed, Twitter polls, Youtube, Reddit, and Tiktok`,
-    url: process.env.REACT_APP_TOKEN_SENTIMENT,
-    image: tokenSentimentLogo,
+    title: "CashHog Haven",
+    description: `A Solana NFT collection of unique cashhog haven looking for new owners. This project was built on Next.Js/Create T3 App`,
+    url: process.env.REACT_APP_CASHHOG_HAVEN,
+    image: cashHogHavenLogo,
   },
   {
     title: "FriendTech x Discord",
